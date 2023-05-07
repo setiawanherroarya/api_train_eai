@@ -1,0 +1,11 @@
+{
+    "name": "Blora Jaya",
+    "route": "BLA-JYA",
+    "class": "Economy",
+    "price": 50000,
+    "date": "2023-05-07",
+    "start": "09:00",
+    "finish": "13:00",
+    "duration": 4,
+    "capacity": 100
+}
