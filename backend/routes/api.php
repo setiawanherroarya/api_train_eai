@@ -20,3 +20,4 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 
 Route::apiResource("trains", TrainController::class);
+Route::get("trains/alltrain/name", [TrainController::class, 'getName']);

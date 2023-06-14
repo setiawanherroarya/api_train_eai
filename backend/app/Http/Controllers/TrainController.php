@@ -117,4 +117,23 @@ class TrainController extends Controller
             ], 404);
         }
     }
+
+    public function getName(){
+        $trains = Train::select("name")->get();
+
+        if (count($trains) > 0) {
+            return response()->json([
+                "status" => 200,
+                "message" => "success",
+                "data" => $trains,
+                "length" => count($trains),
+            ], 200);
+        } else {
+            return response()->json([
+                "status" => 200,
+                "message" => "success",
+                "data" => "data is empty",
+            ], 200);
+        }
+    }
 }
