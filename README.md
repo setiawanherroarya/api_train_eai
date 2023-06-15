@@ -105,28 +105,26 @@ The REST API to the train app is described below.
     "status": 200,
     "message": "success",
     "data": [
-    {
-            "name": "Jakarta Express"
-        },
-        {
-            "name": "INDO TRANS"
-        },
-        {
-            "name": "AIRLANGGA"
-        },
-        {
-            "name": "LODAYA"
-        },
-        {
-            "name": "ARGO PARAINGAN"
-        },
-        {
-            "name": "KENCANA"
-        }
-    ],
-    "length": 6
-}
-
+                {
+                "name" : "Jakarta Express"
+                },
+                {
+                "name" : "INDO TRANS"
+                },
+                {
+                "name" : "AIRLANGGA"
+                },
+                {
+                "name" : "LODAYA"
+                },
+                {
+                "name" : "ARGO PARAINGAN"
+                },
+                {
+                "name" : "KENCANA"
+                }
+                
+            "length" : 6
 
 ### Add  Data
 
