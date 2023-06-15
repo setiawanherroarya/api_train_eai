@@ -55,7 +55,7 @@ The REST API to the train app is described below.
 
 ```
 
-### Get Spesific 
+### Get Spesific (by ID)
 
 ```
   GET /api/trains/{id}
@@ -88,6 +88,45 @@ The REST API to the train app is described below.
 }
 }
 ```
+
+### Get Spesific (by Name)
+
+```
+  GET /api/trains/alltrain/name
+```
+
+| Parameter | Type     | Description                                                     |
+| :-------- | :------- | :-------------------------------------------------------------- |
+| `name`      | `string` | **Required**. The train_name column is mandatory and has a string value. |
+
+#### Response
+
+{
+    "status": 200,
+    "message": "success",
+    "data": [
+    {
+            "name": "Jakarta Express"
+        },
+        {
+            "name": "INDO TRANS"
+        },
+        {
+            "name": "AIRLANGGA"
+        },
+        {
+            "name": "LODAYA"
+        },
+        {
+            "name": "ARGO PARAINGAN"
+        },
+        {
+            "name": "KENCANA"
+        }
+    ],
+    "length": 6
+}
+
 
 ### Add  Data
 
