@@ -100,7 +100,7 @@ The REST API to the train app is described below.
 | `name`      | `string` | **Required**. The train_name column is mandatory and has a string value. |
 
 #### Response
-
+```
 {
     "status": 200,
     "message": "success",
@@ -125,6 +125,7 @@ The REST API to the train app is described below.
                 }
                 
             "length" : 6
+```
 
 ### Add  Data
 
