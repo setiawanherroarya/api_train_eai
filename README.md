@@ -104,7 +104,7 @@ The REST API to the train app is described below.
 {
     "status": 200,
     "message": "success",
-    "data": [
+    "data": 
                 {
                 "name" : "Jakarta Express"
                 },
